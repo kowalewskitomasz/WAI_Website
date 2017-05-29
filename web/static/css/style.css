@@ -1,0 +1,213 @@
+#gora a {
+    color: black;
+    text-decoration: none;
+}
+
+#gora {
+    text-align: center;
+    font-size: 55px;
+    font: 60px arial;
+}
+
+#header {
+    width: 100%;
+	max-width:1008px;
+    margin: auto;
+    background-color: #2856d4;
+}
+
+#underheader {
+    width: 1008px;
+    margin: auto;
+    background-color: #2856d4;
+}
+
+#content {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: #4ba3f4;
+    border: 4px solid #295be3;
+}
+
+#tekstwcontencie {
+    font: 25px arial;
+    color: black;
+    text-align: justify;
+    margin: 30px;
+}
+
+.drop_menu {
+    background: #2856d4;
+    margin: 0;
+    list-style-type: none;
+    height: 53px;
+}
+
+    .drop_menu li {
+        float: right;
+    }
+
+        .drop_menu li a {
+            padding: 9px 20px;
+            display: block;
+            color: white;
+            text-decoration: none;
+            font: 15px arial, verdana, sans-serif;
+			line-height: 25px;
+        }
+
+    .drop_menu ul {
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+        list-style-type: none;
+    }
+
+    .drop_menu li:hover {
+        position: relative;
+        background: #2856d4;
+    }
+
+        .drop_menu li:hover ul {
+            left: 0px;
+            top: 43px;
+            background: #2856d4;
+            padding: 0px;
+        }
+
+            .drop_menu li:hover ul li a {
+                padding: 20px;
+                display: block;
+                width: 168px;
+                text-indent: 15px;
+                background-color: #2856d4;
+            }
+
+                .drop_menu li:hover ul li a:hover {
+                    background: #2347a9;
+                }
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+}
+
+.footercontent {
+    width: 100%;
+	max-width:1008px;
+    background: #2856d4;
+    text-align: center;
+    font: 20px arial;
+    margin: auto;
+    height: 30px;
+}
+
+.obrazkicenter{
+    text-align:center;
+    display:inline-block;
+    width: 100%;
+    padding:20px;
+}			
+
+img.obrazek200{
+    height: 200px;
+}
+.box1{
+  width:200px;
+  height:200px;
+  background-color:blue;   
+  -webkit-animation-name: kwadrat;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+@media screen and (max-width: 1000px) {
+	
+	#content {
+		max-width: 99%;
+	}
+	
+	#underheader {
+		max-width: 100%;
+	}
+	
+	#gora{
+		font-size: 25px;
+	}
+	
+	.drop_menu {
+    background: #2856d4;
+    margin: 0;
+    list-style-type: none;
+    height: 40px;
+	}
+
+	.drop_menu li a{		
+            font: 15px arial, verdana, sans-serif;
+	}
+	
+	.drop_menu li:hover ul {
+            left: 0px;
+            top: 35px;
+            background: #2856d4;
+            padding: 0px;
+    }
+	
+	.drop_menu li:hover ul li a {
+                padding: 20px;
+                display: block;
+                width: 120px;
+                text-indent: 15px;
+                background-color: #2856d4;
+    }
+	
+
+	
+	img.obrazek200{
+    max-width: 100%;
+	}
+	
+	p{
+		font-size:14px;
+	}
+	
+	#link1{
+		font-size:15px;
+	}
+	.footercontent{
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 347px) {
+	.drop_menu li a{		
+        display: none;
+	}
+}
+	
+
+@-webkit-keyframes kwadrat {
+    from {background-color: blue;}
+    to {background-color: green;}
+}

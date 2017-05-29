@@ -1,0 +1,7 @@
+ <div id="content">
+        <div id="tekstwcontencie">
+            <h1>Nogi</h1>
+            <h3>Przysiady ze sztangą na barkach</h3>
+            <p>Do treningu nóg wykorzystuję jedynie jedno ćwiczenie - przysiady. Przysiady to ćwiczenie złożone (nie pod względem trudności, a pobudzenia mięśni) więc robiąc je nie wykorzystujemy jedynie mięśni nóg, lecz również plecy oraz brzuch. Gwarantuje nam to równomierny wzrost wszystkich zaangażowanych partii mięśniowych. Opis ćwiczenia: wchodzimy pod sztangę stojącą na stojakach, barki opuszczone i odwiedzione w tył, gryf sztangi dotyka naszego karku, dłonie rozstawione w wygodnej pozycji na gryfie. Z tej pozycji nabieramy głęboko powietrza i ściągamy sztangę ze stojaków i rozpoczynamy ruch w dół. Przez cały czas plecy wygięte w jednakowy sposób, pracują tylko nogi. Najlepiej, gdy przez cały czas biodra i pięty znajdują się w jednej linii, nie wypychamy kolan do przodu. Schodzimy w dół do momentu, gdy zanika kontrola pracy mięsni czworogłowych, a ich rozciągnięcie jest maksymalne. Rozpoczynamy powrót do pozycji wyjściowej, wypychając się piętami podnosimy się w gorę, jednocześnie wypychając biodra w przód, aż do pozycji startowej.</p>
+        </div>
+    </div>
